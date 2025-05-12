@@ -14,7 +14,10 @@ Ez a projekt a magyarországi és európai benzinárak időbeli alakulását viz
 - `seaborn`
 - `bokeh`
 - `scipy`
-
+- `folium`
+- `json`
+- `requests`
+  
 ## Bemeneti adatok
 
 A kód két `.csv` fájlt használ:
@@ -39,6 +42,7 @@ hungary_df = pd.read_csv("IDE_ÍRD_AZ_ELÉRÉSI_UTAT/95_petrol_hu.csv")
 - Árfolyamváltás forintról euróra
 - Z-score alapú kiugró értékek kezelése
 - Idősoros vizualizációk készítése (Seaborn, Bokeh)
+- Térképes vizualizáció (Folium)
 
 ## Eredmények
 
